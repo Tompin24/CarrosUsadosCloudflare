@@ -33,7 +33,7 @@ export const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/carros/new"
+                  to="/carros/novo"
                   className="hover:text-foreground transition-colors"
                 >
                   Vender o Seu Carro
