@@ -1,0 +1,7 @@
+project_id = "ldxozbcblmrbghtrdova"
+
+[functions.car-assistant]
+verify_jwt = false
+
+[functions.import-listing]
+verify_jwt = false
