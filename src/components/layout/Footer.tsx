@@ -7,29 +7,43 @@ export const Footer = () => {
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-2 font-display font-bold text-xl">
+            <Link
+              to="/"
+              className="flex items-center gap-2 font-display font-bold text-xl"
+            >
               <Car className="h-6 w-6 text-secondary" />
               <span className="text-primary">Carros</span>
               <span className="text-secondary">Usados</span>
             </Link>
-            <p className="text-sm text-muted-foreground">O marketplace dos carros usados em Portugal!</p>
+            <p className="text-sm text-muted-foreground">
+              O marketplace dos carros usados em Portugal!
+            </p>
           </div>
 
           <div>
             <h4 className="font-display font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link to="/cars" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/carros"
+                  className="hover:text-foreground transition-colors"
+                >
                   Pesquisar Carros
                 </Link>
               </li>
               <li>
-                <Link to="/cars/new" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/carros/new"
+                  className="hover:text-foreground transition-colors"
+                >
                   Vender o Seu Carro
                 </Link>
               </li>
               <li>
-                <Link to="/auth" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/auth"
+                  className="hover:text-foreground transition-colors"
+                >
                   Entrar
                 </Link>
               </li>
@@ -37,25 +51,39 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-display font-semibold mb-4">Marcas Populares</h4>
+            <h4 className="font-display font-semibold mb-4">
+              Marcas Populares
+            </h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link to="/cars?brand=BMW" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/carros?brand=BMW"
+                  className="hover:text-foreground transition-colors"
+                >
                   BMW
                 </Link>
               </li>
               <li>
-                <Link to="/cars?brand=Mercedes-Benz" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/carros?brand=Mercedes-Benz"
+                  className="hover:text-foreground transition-colors"
+                >
                   Mercedes-Benz
                 </Link>
               </li>
               <li>
-                <Link to="/cars?brand=Audi" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/carros?brand=Audi"
+                  className="hover:text-foreground transition-colors"
+                >
                   Audi
                 </Link>
               </li>
               <li>
-                <Link to="/cars?brand=Volkswagen" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/carros?brand=Volkswagen"
+                  className="hover:text-foreground transition-colors"
+                >
                   Volkswagen
                 </Link>
               </li>
@@ -90,7 +118,10 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Carros Usados. Todos os direitos reservados.</p>
+          <p>
+            © {new Date().getFullYear()} Carros Usados. Todos os direitos
+            reservados.
+          </p>
         </div>
       </div>
     </footer>
